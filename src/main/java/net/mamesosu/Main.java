@@ -1,6 +1,7 @@
 package net.mamesosu;
 
 import net.mamesosu.Load.Bot;
+import net.mamesosu.Utils.Log;
 
 public class Main {
 
@@ -14,6 +15,6 @@ public class Main {
         //Start up Discord bot
         APP_SETTINGS.setJda(Bot.buildBot(APP_SETTINGS.getDISCORD_TOKEN()));
 
-        Logger.setLogger("Start to listen any request..", 0);
+        Log.setLogger("Start to listen any request..", 0);
     }
 }

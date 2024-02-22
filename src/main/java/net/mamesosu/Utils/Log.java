@@ -1,9 +1,9 @@
-package net.mamesosu;
+package net.mamesosu.Utils;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public abstract class Logger {
+public abstract class Log {
 
     private static String getLogInfo(int level) {
 
