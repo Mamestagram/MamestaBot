@@ -68,6 +68,9 @@ public abstract class User {
 
         result = ps.executeQuery();
 
+        // Memory release
+        connection.close();
+
         if(result.next()) {
             return result.getInt("cranking");
         } else {
