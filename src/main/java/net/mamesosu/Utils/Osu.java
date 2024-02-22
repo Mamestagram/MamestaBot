@@ -72,7 +72,7 @@ public abstract class Osu {
             case "rx!ctb" -> {
                 return 6;
             }
-            case "osu!ap" -> {
+            case "ap!std" -> {
                 return 8;
             }
             default -> {
@@ -105,7 +105,7 @@ public abstract class Osu {
                 return "rx!ctb";
             }
             case 8 -> {
-                return "osu!ap";
+                return "ap!std";
             }
             default -> {
                 return "Unknown";
